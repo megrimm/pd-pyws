@@ -1,0 +1,10 @@
+#N canvas 0 23 351 270 10;
+#X obj 137 110 pyext pyws ws;
+#X obj 134 42 inlet;
+#X obj 231 48 inlet;
+#X obj 153 161 outlet;
+#X obj 234 171 outlet;
+#X connect 0 0 3 0;
+#X connect 0 1 4 0;
+#X connect 1 0 0 0;
+#X connect 2 0 0 1;
