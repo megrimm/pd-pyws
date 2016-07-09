@@ -9,7 +9,7 @@ class ws(pyext._class):
 	_inlets=1
 	_outlets=1
 
-	sltime=0.1 # sleep time
+	sltime=0.2 # sleep time
 
 	def open_1(self,feed):
 		ws = create_connection(str(feed))
